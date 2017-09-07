@@ -6,7 +6,7 @@ class S3Upload {
 	var $client;
 	var $bucket;
 	public function __construct(){
-		$this->credentials = new Credentials('', '');
+		$this->credentials = new Credentials('AKIAJU657FYJXACVBIVA', '2QyzqNMZJ19OxvbnMO/uCVDl7NLZNPoCTMf4nc59');
 		$this->client = S3Client::factory(array(
 		    'credentials' => $this->credentials
 		));
